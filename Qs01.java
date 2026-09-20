@@ -1,0 +1,9 @@
+// Trapping Rainwater Problem
+// Given n non-negative integers representing an elevation map 
+// where the width of each bar is 1, compute how much water it 
+// can trap after raining.
+//height=[4,2,0,6,3,2,5]
+
+public class Qs01 {
+    
+}
