@@ -9,7 +9,8 @@ public class selectionSort{
         for(int i=0; i<arr.length-1; i++){
             int minPos =i;
             for(int j=i+1; j<arr.length; j++){
-            if(arr[minPos]> arr[j]){ //here if we use < then it will sort in descending order or we will get reverse array
+            if(arr[minPos]> arr[j]){ //here if we use < then it will sort in
+            //descending order or we will get reverse array
                 minPos = j;
             }
         }
