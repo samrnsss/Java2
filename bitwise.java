@@ -114,19 +114,19 @@
 
 
 //modular exponentiation
-// public class bitwise {
-//     public static int modularExponentiation(int a, int n, int m){
-//         int ans = 1;
-//         while(n>0){
-//             if((n & 1) != 0){ //check LSB of n, if it is 1 then multiply ans with a
-//                 ans = (ans * a) % m;
-//             }
-//             a = (a * a) % m;
-//             n = n>>1; // right shift n by 1 (equivalent to n = n/2)
-//         }
-//         return ans;
-//     }
-//     public static void main(String [] args){
-//         System.out.println(modularExponentiation(2, 10, 1000));
-//     }
-// }
+public class bitwise {
+    public static int modularExponentiation(int a, int n, int m){
+        int ans = 1;
+        while(n>0){
+            if((n & 1) != 0){ //check LSB of n, if it is 1 then multiply ans with a
+                ans = (ans * a) % m;
+            }
+            a = (a * a) % m;
+            n = n>>1; // right shift n by 1 (equivalent to n = n/2)
+        }
+        return ans;
+    }
+    public static void main(String [] args){
+        System.out.println(modularExponentiation(2, 10, 1000));
+    }
+}
